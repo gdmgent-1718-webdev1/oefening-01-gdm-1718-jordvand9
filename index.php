@@ -4,7 +4,7 @@ $string1 = 'hello';
 $string2 = 'world';
 $x = 7;
 $y = 10;
-$watIs = 12;
+$watIs = true;
 $leeftijd = 19;
 ?>
 
@@ -34,7 +34,7 @@ $leeftijd = 19;
 if($leeftijd < 16){
     echo $leeftijd . ' is te jong voor deze film.';
 }
-elseif($leeftijd>16 && $leeftijd<18){
+elseif($leeftijd>=16 && $leeftijd<=18){
     echo $leeftijd . ' je hebt ouderlijk toezicht nodig.';
 }
 elseif($leeftijd > 18){
